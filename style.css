@@ -20,7 +20,7 @@ body {
 }
 
 .nav-btn {
-    position: absolute;
+    position: fixed;
     margin: 1.5em;
     color: rgb(40, 251, 12);
     cursor: pointer;
@@ -48,8 +48,12 @@ body {
 .nav-bar{
     width: 100%;
     max-width: 15em;
-    position: absolute;
+    position: fixed;
+    z-index: 1;
     top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     padding: 1em;
     background: lightgray;
     min-height: 100vh;
